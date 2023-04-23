@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    background: linear-gradient(to top, #f8cfd4, #fff7f8);
+    height: 100vh;
+}
+nav{
+
+    position: sticky;
+    top: 0;
+}
+
+.dmtext{
+    width: 50%;
+}
+
+p{
+  font-family: 'Special Elite', cursive;
+  
+}
+
+h1{
+    padding-right: 6em;
+    }
+
+.navbar{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 15px #62615e;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  
+li {
+    display: flex;
+  }
+  
+  li a {
+    font-family: 'Special Elite', cursive;
+    display: block;
+    color: rgb(32, 31, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #dedede;
+  }
+
+li a:active{
+    font-weight: bold;
+}
+
+.header-left{
+    display: flex;
+}
+
+.navn{
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+}
+
+.header-right{
+display: flex;
+}
+
+.sm-icons {
+    width: 40px;
+    padding-right: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .textsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+
+
+  .firstarticle {
+    gap: 30px;
+    padding: 20px;
+    
+ display: flex;
+  }
+  
+  .xeniabillede{
+    padding: 2em;
+  }
+  
+  .profilbillede {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 20em;
+    height: 20em;
+    box-shadow: 3px 4px 9px rgb(71 73 73);
+  }
+  
+  .newtext {
+    display: flex;
+    padding: 1em;
+    font-family: 'Special Elite', cursive;
+    text-align: -webkit-center;
+    border-style: solid;
+    border-radius: 4% 4%;
+    border-color: grey;
+    text-shadow:3px 3px 6px grey;
+  }
+
+
+  
+  .tekst3{
+    padding: 1em;
+    font-family: 'Special Elite', cursive;
+    text-align: -webkit-center;
+    border-style: solid;
+    border-radius: 4% 4%;
+    border-color: grey;
+    text-shadow:3px 3px 6px grey;
+
+  }
+  
+
+  .overskrift{
+    font-family: 'Special Elite', cursive;
+  }
+
+  .backbutton{
+    background: transparent;
+    border: none;
+  }
+
+  .backbutton:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerimg{
+    height: 4em;
+    padding: 10px;
+  }
+
+  .byme{
+   padding-right: 1em;
+  }

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    background: linear-gradient(to top, #f8cfd4, #fff7f8);
+}
+nav{
+
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    padding-right: 6em;
+    }
+
+p{
+  font-family: 'Special Elite', cursive;
+  padding: 1em;
+}
+
+.navbar{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 15px #62615e;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  
+li {
+    display: flex;
+  }
+  
+  li a {
+    font-family: 'Special Elite', cursive;
+    display: block;
+    color: rgb(32, 31, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #dedede;
+  }
+
+li a:active{
+    font-weight: bold;
+}
+
+.header-left{
+    display: flex;
+}
+
+.navn{
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+}
+
+.header-right{
+display: flex;
+}
+
+.sm-icons {
+    width: 40px;
+    padding-right: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .textsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    background: #fff9f9;  
+    box-shadow: 6px 5px 36px grey;
+    border-radius: 0% 0% 10% 10%;
+    
+  }
+
+  .overskrift{
+    font-family: 'Special Elite', cursive;
+  }
+
+  .backbutton{
+    background: transparent;
+    border: none;
+    position: fixed;
+  }
+
+  .backbutton:hover{
+    cursor: pointer;
+  }
+
+.legovideo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.lego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.legobutton{
+    background: transparent;
+    border: none;
+  }
+
+  .legobutton:hover{
+    cursor: pointer;
+  }
+
+  .interneticon{
+    width: 5em;
+  }
+
+  footer{
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vh;
+    padding-right: 2vh
+  }
+
+  .footerimg{
+    height: 4em;
+    padding: 10px;
+  }
